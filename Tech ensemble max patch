@@ -1,0 +1,237 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "lcd",
+				"id" : "obj-56",
+				"numinlets" : 1,
+				"presentation_rect" : [ 750.0, 330.0, 164.0, 158.0 ],
+				"numoutlets" : 4,
+				"patching_rect" : [ 750.0, 330.0, 164.0, 158.0 ],
+				"outlettype" : [ "list", "list", "int", "" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "lcd",
+				"id" : "obj-57",
+				"numinlets" : 1,
+				"presentation_rect" : [ 540.0, 330.0, 164.0, 158.0 ],
+				"numoutlets" : 4,
+				"patching_rect" : [ 540.0, 330.0, 164.0, 158.0 ],
+				"outlettype" : [ "list", "list", "int", "" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "lcd",
+				"id" : "obj-58",
+				"numinlets" : 1,
+				"presentation_rect" : [ 330.0, 330.0, 164.0, 158.0 ],
+				"numoutlets" : 4,
+				"patching_rect" : [ 330.0, 330.0, 164.0, 158.0 ],
+				"outlettype" : [ "list", "list", "int", "" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "lcd",
+				"id" : "obj-55",
+				"numinlets" : 1,
+				"presentation_rect" : [ 750.0, 90.0, 164.0, 158.0 ],
+				"numoutlets" : 4,
+				"patching_rect" : [ 750.0, 90.0, 164.0, 158.0 ],
+				"outlettype" : [ "list", "list", "int", "" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "lcd",
+				"id" : "obj-54",
+				"numinlets" : 1,
+				"presentation_rect" : [ 540.0, 90.0, 164.0, 158.0 ],
+				"numoutlets" : 4,
+				"patching_rect" : [ 540.0, 90.0, 164.0, 158.0 ],
+				"outlettype" : [ "list", "list", "int", "" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"id" : "obj-52",
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"presentation_rect" : [ 820.0, 510.0, 24.0, 24.0 ],
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 820.0, 510.0, 24.0, 24.0 ],
+				"outlettype" : [ "int" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"id" : "obj-50",
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"presentation_rect" : [ 610.0, 510.0, 24.0, 24.0 ],
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 610.0, 510.0, 24.0, 24.0 ],
+				"outlettype" : [ "int" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"id" : "obj-48",
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"presentation_rect" : [ 400.0, 510.0, 24.0, 24.0 ],
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 400.0, 510.0, 24.0, 24.0 ],
+				"outlettype" : [ "int" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"id" : "obj-46",
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"presentation_rect" : [ 820.0, 270.0, 24.0, 24.0 ],
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 820.0, 270.0, 24.0, 24.0 ],
+				"outlettype" : [ "int" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"id" : "obj-44",
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"presentation_rect" : [ 610.0, 270.0, 24.0, 24.0 ],
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 610.0, 270.0, 24.0, 24.0 ],
+				"outlettype" : [ "int" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"id" : "obj-42",
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"presentation_rect" : [ 400.0, 270.0, 24.0, 24.0 ],
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 400.0, 270.0, 24.0, 24.0 ],
+				"outlettype" : [ "int" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "lcd",
+				"id" : "obj-40",
+				"numinlets" : 1,
+				"presentation_rect" : [ 330.0, 90.0, 164.0, 158.0 ],
+				"numoutlets" : 4,
+				"patching_rect" : [ 330.0, 90.0, 164.0, 158.0 ],
+				"outlettype" : [ "list", "list", "int", "" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "VOLUME",
+				"id" : "obj-38",
+				"numinlets" : 1,
+				"presentation_rect" : [ 149.5, 375.0, 61.0, 20.0 ],
+				"style" : "",
+				"numoutlets" : 0,
+				"patching_rect" : [ 149.5, 375.0, 61.0, 20.0 ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "PITCH",
+				"id" : "obj-36",
+				"numinlets" : 1,
+				"presentation_rect" : [ 80.5, 375.0, 49.0, 20.0 ],
+				"style" : "",
+				"numoutlets" : 0,
+				"patching_rect" : [ 80.5, 375.0, 49.0, 20.0 ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "slider",
+				"id" : "obj-4",
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"presentation_rect" : [ 90.0, 120.0, 30.0, 229.0 ],
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 90.0, 120.0, 30.0, 229.0 ],
+				"outlettype" : [ "" ],
+				"presentation" : 1
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "slider",
+				"id" : "obj-2",
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"presentation_rect" : [ 165.0, 120.0, 30.0, 229.0 ],
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 165.0, 120.0, 30.0, 229.0 ],
+				"outlettype" : [ "" ],
+				"presentation" : 1
+			}
+
+		}
+ ],
+	"appversion" : 	{
+		"major" : 7,
+		"minor" : 3,
+		"revision" : 5,
+		"architecture" : "x64",
+		"modernui" : 1
+	}
+
+}
