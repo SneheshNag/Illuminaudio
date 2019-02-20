@@ -1,6 +1,151 @@
 {
 	"boxes" : [ 		{
 			"box" : 			{
+				"maxclass" : "message",
+				"text" : "brgb 250 120 100",
+				"id" : "obj-22",
+				"numinlets" : 2,
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 1226.0, 190.0, 105.0, 22.0 ],
+				"outlettype" : [ "" ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "clear",
+				"id" : "obj-20",
+				"numinlets" : 2,
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 1098.0, 215.0, 37.0, 22.0 ],
+				"outlettype" : [ "" ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "metro 50",
+				"id" : "obj-18",
+				"numinlets" : 2,
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 1098.0, 158.0, 58.0, 22.0 ],
+				"outlettype" : [ "bang" ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "toggle",
+				"id" : "obj-17",
+				"parameter_enable" : 0,
+				"numinlets" : 1,
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 1111.0, 84.0, 24.0, 24.0 ],
+				"outlettype" : [ "int" ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "panel",
+				"id" : "obj-13",
+				"rounded" : 23,
+				"numinlets" : 1,
+				"style" : "",
+				"numoutlets" : 0,
+				"patching_rect" : [ 1081.0, 247.0, 128.0, 128.0 ],
+				"mode" : 0,
+				"angle" : 270.0,
+				"bgcolor" : [ 0.980392, 0.470588, 0.392157, 1.0 ],
+				"proportion" : 0.39
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "frgb 250 120 100",
+				"id" : "obj-12",
+				"numinlets" : 2,
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 1143.0, 438.0, 101.0, 22.0 ],
+				"outlettype" : [ "" ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "prepend brgb",
+				"id" : "obj-9",
+				"numinlets" : 1,
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 1031.0, 587.0, 82.0, 22.0 ],
+				"outlettype" : [ "" ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "250 120 100",
+				"id" : "obj-5",
+				"numinlets" : 2,
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 1127.0, 502.0, 77.0, 22.0 ],
+				"outlettype" : [ "" ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "swatch",
+				"id" : "obj-1",
+				"parameter_enable" : 0,
+				"numinlets" : 3,
+				"saturation" : 1.0,
+				"numoutlets" : 2,
+				"patching_rect" : [ 1125.0, 587.0, 128.0, 32.0 ],
+				"outlettype" : [ "", "float" ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "button",
+				"id" : "obj-84",
+				"numinlets" : 1,
+				"style" : "",
+				"numoutlets" : 1,
+				"patching_rect" : [ 1305.0, 285.0, 24.0, 24.0 ],
+				"outlettype" : [ "bang" ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "colorpicker",
+				"id" : "obj-67",
+				"numinlets" : 1,
+				"style" : "",
+				"numoutlets" : 2,
+				"patching_rect" : [ 1125.0, 540.0, 69.0, 22.0 ],
+				"outlettype" : [ "list", "bang" ]
+			}
+
+		}
+, 		{
+			"box" : 			{
 				"maxclass" : "lcd",
 				"id" : "obj-56",
 				"numinlets" : 1,
@@ -222,6 +367,63 @@
 				"patching_rect" : [ 165.0, 120.0, 30.0, 229.0 ],
 				"outlettype" : [ "" ],
 				"presentation" : 1
+			}
+
+		}
+ ],
+	"lines" : [ 		{
+			"patchline" : 			{
+				"source" : [ "obj-67", 0 ],
+				"destination" : [ "obj-1", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-5", 0 ],
+				"destination" : [ "obj-67", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-22", 0 ],
+				"destination" : [ "obj-13", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 0 ],
+				"destination" : [ "obj-13", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-18", 0 ],
+				"destination" : [ "obj-20", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-17", 0 ],
+				"destination" : [ "obj-18", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-12", 0 ],
+				"destination" : [ "obj-56", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 0 ],
+				"destination" : [ "obj-9", 0 ]
 			}
 
 		}
