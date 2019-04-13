@@ -9,8 +9,8 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 51.0, 830.0, 855.0 ],
-		"bglocked" : 1,
+		"rect" : [ 34.0, 79.0, 830.0, 787.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -882,15 +882,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Copperplate Gothic Bold",
+					"fontname" : "Century Gothic",
 					"fontsize" : 16.0,
 					"id" : "obj-142",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 116.5, 241.0, 59.0, 24.0 ],
+					"patching_rect" : [ 116.5, 241.0, 52.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 116.5, 241.0, 59.0, 24.0 ],
+					"presentation_rect" : [ 117.0, 241.0, 52.0, 26.0 ],
 					"style" : "",
 					"text" : "SOLO",
 					"textjustification" : 1
@@ -916,15 +916,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Copperplate Gothic Bold",
+					"fontname" : "Century Gothic",
 					"fontsize" : 16.0,
 					"id" : "obj-100",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 241.0, 68.0, 24.0 ],
+					"patching_rect" : [ 191.0, 241.0, 50.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.0, 241.0, 68.0, 24.0 ],
+					"presentation_rect" : [ 200.0, 241.0, 50.0, 26.0 ],
 					"style" : "",
 					"text" : "RESET",
 					"textjustification" : 1
@@ -933,15 +933,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Copperplate Gothic Bold",
+					"fontname" : "Century Gothic",
 					"fontsize" : 16.0,
 					"id" : "obj-93",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 241.0, 86.0, 24.0 ],
+					"patching_rect" : [ 17.0, 241.0, 66.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 241.0, 86.0, 24.0 ],
+					"presentation_rect" : [ 27.0, 241.0, 66.0, 26.0 ],
 					"style" : "",
 					"text" : "SELECT",
 					"textjustification" : 1
@@ -981,11 +981,11 @@
 			}
 , 			{
 				"box" : 				{
-					"angle" : 270.0,
+					"angle" : 270.227692,
 					"background" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"grad2" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"grad1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"grad2" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"id" : "obj-2",
 					"maxclass" : "panel",
 					"mode" : 1,
@@ -995,6 +995,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 1.0, 284.0, 312.0 ],
 					"proportion" : 0.39,
+					"pt1" : [ 0.5, 0.05 ],
+					"pt2" : [ 0.504951, 1.295652 ],
 					"style" : ""
 				}
 
